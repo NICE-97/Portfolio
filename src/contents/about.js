@@ -1,0 +1,4 @@
+export const data = {
+    title: "About",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quasi ea facilis sequi illo expedita iusto doloribus vero laudantium accusantium odit praesentium tenetur ab quod doloremque possimus neque perferendis explicabo harum quidem fugiat ullam repudiandae? Laborum quo vitae at natus, tempora suscipit modi recusandae reprehenderit exercitationem. Dicta quo commodi fugiat repellat cupiditate dignissimos tempore optio iure voluptatum quia molestias voluptates corrupti, ipsum placeat explicabo vel possimus in expedita repellendus. Quae aliquid molestias eligendi dignissimos nobis, error minus? Blanditiis adipisci expedita cumque omnis fugiat itaque, saepe architecto, amet, hic sit aut quidem necessitatibus eligendi distinctio quae fugit ducimus a illo iure.",
+}
