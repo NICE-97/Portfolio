@@ -28,11 +28,11 @@ function RightSection({ currentSectionId}) {
         data= {certification}     
         currentSectionId = {currentSectionId}
       />
-      <ContentContainer
+      {/* <ContentContainer
         title= 'Article'
         data= {projectData}      
         currentSectionId = {currentSectionId}
-      />
+      /> */}
       <Footer/>
     </div>
   )

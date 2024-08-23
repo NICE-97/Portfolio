@@ -6,7 +6,7 @@ function Material({ icon, link }) {
     return null;
   }
   return (
-        <a className='text-primaryContent transition-all hover:text-white hover:scale-110' href={link} target='_blank'>
+        <a className={`transition-all hover:scale-110 `} href={link} target='_blank'>
           <FontAwesomeIcon className='' icon={icon}/>
         </a>
   )

@@ -15,7 +15,6 @@ function ContentContainer({
     const getSectionId = useContext(onInitial)
     const [isMouseEnter, setIsMouseEnter] = useState({});
     const SECTION_ID = `${sectionTitle}-section`
-
     useEffect(()=>{
         getSectionId(SECTION_ID);
     },[])
@@ -39,7 +38,7 @@ function ContentContainer({
           }, index) => {
               return(
                   <div key={`${SECTION_ID}-${index}-${title.replaceAll(" ","")}`}
-                      className={`grid grid-cols-[25%_75%] rounded-md px-4 py-4 ${isMouseEnter[`${SECTION_ID}-${index}`] ? "bg-primaryBase transition-all" : ""}`}
+                      className={`grid grid-cols-[25%_75%] rounded-md px-4 py-4 mt-4 ${isMouseEnter[`${SECTION_ID}-${index}`] ? "bg-primaryBase transition-all" : ""}`}
                       onMouseEnter={() => setIsMouseEnter({ [`${SECTION_ID}-${index}`]: true})}
                       onMouseLeave={() => setIsMouseEnter({ [`${SECTION_ID}-${index}`]: false})}
                   >
@@ -51,7 +50,7 @@ function ContentContainer({
                           <TitleLink isHighLight={isMouseEnter[`${SECTION_ID}-${index}`]} title={title} link={link}/>
                           {
                               materials.length > 0 ?
-                              <div className='flex gap-4 text-xl items-center'>
+                              <div className={`flex gap-4 text-xl items-center ${isMouseEnter[`${SECTION_ID}-${index}`] ? "text-primaryAccent" : "" }`}>
                                   {
                                       materials.map((items, index)=>{
                                           return(
@@ -67,10 +66,10 @@ function ContentContainer({
                                   <Description key={`${items}-description-${index}`} description={items}/>
                               )
                           })}
-                          <div>
+                          <div className={` ${isMouseEnter[`${SECTION_ID}-${index}`] ? "text-primaryAccent" : ""}`}>
                               {skill.map((items, index)=>{
                                   return(
-                                      <Tech key={`${items}-skill-${index}`} isHighLight={isMouseEnter[`${SECTION_ID}-${index}`]} data={items}/>
+                                      <Tech key={`${items}-skill-${index}`} data={items}/>
                                   )
                               })}
                           </div>

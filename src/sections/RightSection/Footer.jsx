@@ -5,7 +5,7 @@ import { FaCopyright } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className='mb-24'>
+    <div className='mt-72 mb-12'>
         <div className='flex justify-end gap-2 text-lg font-semibold'>
             <span>Copyright</span>
             <div className='grid content-center'>
