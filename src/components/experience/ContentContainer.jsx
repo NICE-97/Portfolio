@@ -23,7 +23,7 @@ function ContentContainer({
       <div id={SECTION_ID} className='scroll-m-10'>
           <div className='text-primaryAccent font-bold text-2xl px-2'>
             <div>
-                <span className={`bg-white h-[2px] duration-500 ease-in-out  mr-2 mb-2 new-arrow inline-block ${currentSectionId === SECTION_ID ? "pr-10" : ""}`}></span>
+                <span className={`dark:bg-white bg-primaryAccent h-[3px] duration-500 ease-in-out  mr-2 mb-2 new-arrow inline-block ${currentSectionId === SECTION_ID ? "pr-10" : ""}`}></span>
                 {sectionTitle}
             </div>
           </div>
@@ -38,7 +38,7 @@ function ContentContainer({
           }, index) => {
               return(
                   <div key={`${SECTION_ID}-${index}-${title.replaceAll(" ","")}`}
-                      className={`grid grid-cols-[25%_75%] rounded-md px-4 py-4 mt-4 ${isMouseEnter[`${SECTION_ID}-${index}`] ? "bg-primaryBase transition-all" : ""}`}
+                      className={`grid grid-cols-[25%_75%] rounded-md  px-4 py-4 mt-4 ${isMouseEnter[`${SECTION_ID}-${index}`] ? "bg-primaryBase shadow-md transition-all" : ""}`}
                       onMouseEnter={() => setIsMouseEnter({ [`${SECTION_ID}-${index}`]: true})}
                       onMouseLeave={() => setIsMouseEnter({ [`${SECTION_ID}-${index}`]: false})}
                   >
@@ -66,7 +66,7 @@ function ContentContainer({
                                   <Description key={`${items}-description-${index}`} description={items}/>
                               )
                           })}
-                          <div className={` ${isMouseEnter[`${SECTION_ID}-${index}`] ? "text-primaryAccent" : ""}`}>
+                          <div className={`${isMouseEnter[`${SECTION_ID}-${index}`] ? "text-primaryFontBtn" : "text-primaryBeforeBtn"}`}>
                               {skill.map((items, index)=>{
                                   return(
                                       <Tech key={`${items}-skill-${index}`} data={items}/>

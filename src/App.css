@@ -1,0 +1,31 @@
+:root {
+    background: white;
+    color: black;
+
+}
+
+.dark {
+    background: #03001C;
+    color: #b4b3b3;
+    --primaryTitle: #a7a7a7;
+    --primaryContent: #cccccc;
+    --primarySubcontent: #100662;
+    --primaryBase: #0b053b;
+    --primaryAccent: white;
+    --primaryBg: #03001C;
+    --primaryFontBtn: white;
+    
+}
+
+.light {
+    color: rgb(78, 77, 77);
+    --primaryTitle: rgb(77, 77, 77);
+    --primaryContent: #rgb(77, 77, 77);
+    --primarySubcontent: #173a56;
+    --primaryBase: #f3f3f3;
+    --primaryAccent: #0b1d2b;
+    --primaryBg: #73ff00;
+    --primaryFontBtn: white;
+    --primaryBeforeBtn: rgb(218, 218, 218);
+
+}

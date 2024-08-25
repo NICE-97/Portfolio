@@ -5,8 +5,8 @@ import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons'
 function Contact() {
   return (
     <div className='flex items-end gap-4 text-3xl'>
-        <FontAwesomeIcon className='hover:scale-125 text-primaryContent hover:text-white transition-all' icon={faGithub}/>
-        <FontAwesomeIcon className='hover:scale-125 text-primaryContent hover:text-white transition-all' icon={faFacebook}/>
+        <FontAwesomeIcon className='hover:scale-125 text-primaryContent hover:text-primaryAccent transition-all' icon={faGithub}/>
+        <FontAwesomeIcon className='hover:scale-125 text-primaryContent hover:text-primaryAccent transition-all' icon={faFacebook}/>
     </div>
   )
 }

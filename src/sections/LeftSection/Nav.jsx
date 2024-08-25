@@ -22,9 +22,9 @@ function Nav({ navBarItems, currentSection }) {
             >
                 <div>
                   <FontAwesomeIcon 
-                  className={`new-arrow mt-1 text-xl  ${currentSection === items.sectionId ? "text-primaryAccent" : isMouseEnter[items.title] ? "" : "hidden"}`} icon={faArrowRight}/>
+                  className={`new-arrow mt-1 text-xl text-primaryAccent  ${currentSection === items.sectionId ? "text-primaryAccent" : isMouseEnter[items.title] ? "" : "hidden"}`} icon={faArrowRight}/>
                 </div>
-                <div className={`text-xl font-bold duration-500 ease-out uppercase ${currentSection === items.sectionId || isMouseEnter[items.title] ? "translate-x-2 text-primaryAccent" : ""}`}>
+                <div className={`text-xl font-bold duration-500 ease-out uppercase  ${currentSection === items.sectionId || isMouseEnter[items.title] ? "translate-x-2 text-primaryAccent" : ""}`}>
                   {items.title}
                 </div>
             </div>
@@ -35,5 +35,3 @@ function Nav({ navBarItems, currentSection }) {
 }
 
 export default Nav
-
-// ${currentSection === items.sectionId || isMouseEnter[items.title] ? "translate-x-2 text-primaryAccent" : ""}

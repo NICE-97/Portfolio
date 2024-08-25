@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import About from './RightSection/About'
 import ContentContainer from '../components/experience/ContentContainer'
 import { data as experienceData } from '../contents/experience'
@@ -6,7 +6,9 @@ import { data as projectData } from '../contents/project'
 import Footer from './RightSection/Footer'
 import { data as certification } from '../contents/certification'
 
-function RightSection({ currentSectionId}) {
+
+function RightSection({ currentSectionId }) {
+
   return (
     <div className="grid gap-20 lg:gap-40 px-3">
       <About 
@@ -28,11 +30,11 @@ function RightSection({ currentSectionId}) {
         data= {certification}     
         currentSectionId = {currentSectionId}
       />
-      {/* <ContentContainer
+      <ContentContainer
         title= 'Article'
         data= {projectData}      
         currentSectionId = {currentSectionId}
-      /> */}
+      />
       <Footer/>
     </div>
   )

@@ -12,7 +12,7 @@ function Footer() {
                 <FaCopyright />
             </div>
             <span>2024  By - Patthanawong Sangpan</span>
-            <div className='grid content-center text-primaryContent text-xl transition-all hover:scale-125 hover:text-white'>
+            <div className='grid content-center text-primaryContent text-xl transition-all hover:scale-125 hover:text-primaryAccent'>
                 <a href="https://github.com/NICE-97" target='_blank'><FontAwesomeIcon icon={faGithub}/></a>
             </div>
         </div>
