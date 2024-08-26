@@ -1,44 +1,64 @@
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import pictureCloneWeb from '../assets/vidio (online-video-cutter.com) 00_00_00-00_00_30.gif'
-import pictureBurger from '../assets/vidio1 (online-video-cutter.com) 00_00_00-00_00_30.gif'
+import Burgers from '../assets/Burgers.gif'
+import Animal from '../assets/Animal-Hospital.gif'
+import Blog from '../assets/Blog.gif'
 
 export const data = [
     {
         date: "AUG 2024",
-        title: "Clone Web Site",
+        title: "Website Blog",
         link: "https://nice-97-vite-tailwind-responsive.netlify.app/",
         materials:[
             {
                 type: faGithub,
-                link: "https://github.com/NICE-97/Vite-Tailwind-Responsive"
+                link: "https://github.com/NICE-97/Website-Blog"
             },
         ],
         description:[
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque at id explicabo quae laborum temporibus minima qui quod assumenda in?",
+            "Clone Web Blog",
             "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque at id explicabo quae laborum temporibus minima qui",
         ],
         skill:[
             ["React", "JavaScript", "Tailwild"],
         ],
-        picture: pictureCloneWeb,
+        picture: Blog,
     },
     {
         date: "JUN 2024",
-        title: "Clone Web Site1",
+        title: "LandingPage Burgers",
         link: "",
         materials:[
             {
                 type: faGithub,
-                link: "https://github.com/NICE-97/HTML-CSS-Responsive/tree/main"
+                link: "https://github.com/NICE-97/LandingPage-Burger"
             },
         ],
         description:[
-            "Lorem ipsum dolor sit amet, explicabo quae laborum temporibus minima qui quod assumenda in?",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque at id explicabo quae laborum",
+            "Convert web design into code",
+            "HTML CSS Responsive",
         ],
         skill:[
             ["HTML", "CSS"],
         ],
-        picture: pictureBurger,
+        picture: Burgers,
+    },
+    {
+        date: "MAY 2024",
+        title: "LandingPage Animal Hospital",
+        link: "",
+        materials:[
+            {
+                type: faGithub,
+                link: "https://github.com/NICE-97/LandingPage-Animal-Hospital"
+            },
+        ],
+        description:[
+            "Convert web design into code",
+            "HTML CSS",
+        ],
+        skill:[
+            ["HTML", "CSS"],
+        ],
+        picture: Animal,
     },
 ]

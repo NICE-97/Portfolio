@@ -74,7 +74,7 @@ function App() {
     <onInitial.Provider value={addSectionId}>
       <div>
         <div className='mt-4 mx-auto max-w-7xl grid justify-items-end'>
-          <div className='mr-3'>
+          <div className='mr-3 grid content-center'>
             <Switch
               onChange={toggleSwitch} 
               checked = { theme === 'dark' ? true : false}

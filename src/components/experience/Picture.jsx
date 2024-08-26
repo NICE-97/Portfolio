@@ -6,7 +6,7 @@ function Picture({ picture, title}) {
   }
   return (
     <div className='mt-5'>
-      <img className='w-5/6 rounded-md' src={picture} alt={title} />
+      <img className='rounded-md border-2 shadow-md' src={picture} alt={title} />
     </div>
   )
 }

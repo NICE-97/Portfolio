@@ -9,7 +9,7 @@ export const data = [
         ],
     },
     {
-        date: "MAY-JUL 2021",
+        date: "MAY - JUL 2021",
         title: "Ruamchai Pracharug Hospital, Position: Internship student (IT Support)",
         description:[
             "- Assemble PC, Mini PC",

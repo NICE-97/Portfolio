@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+      primaryBlack:['Black'],
+      },
       colors:{
         primaryTitle: 'var(--primaryTitle)',
         primaryContent: 'var(--primaryContent)',

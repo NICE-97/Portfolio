@@ -12,7 +12,8 @@ export const data = [
             },
         ],
         description:[
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque at id explicabo quae laborum temporibus minima qui quod assumenda in?",
+            "React Workshop 15 Projects",
+            "Form Validation, Quiz, Light/Dark Mode, Accordion, Currency Converter, Navigation, Image Carousel, TodoList, Calculator, Search Filter, Dynamic Dropdown, Infinite Scroll Photo, Pagination, Weather API, Shopping Cart",
         ],
         skill:[
             ["React", "JavaScript", "HTML", "CSS"]
