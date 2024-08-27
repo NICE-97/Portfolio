@@ -5,14 +5,20 @@ import { data as experienceData } from '../contents/experience'
 import { data as projectData } from '../contents/project'
 import Footer from './RightSection/Footer'
 import { data as certification } from '../contents/certification'
+import { data as education } from '../contents/education'
 
 
 function RightSection({ currentSectionId }) {
 
   return (
     <div className="grid gap-20 lg:gap-40 px-3">
-      <About 
+      {/* <About 
         title='About'
+        currentSectionId = {currentSectionId}
+      /> */}
+      <ContentContainer
+        title= 'Education'
+        data= {education}
         currentSectionId = {currentSectionId}
       />
       <ContentContainer

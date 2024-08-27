@@ -6,7 +6,7 @@ import { data } from '../../contents/header'
 function Header() {
   return (
     <div className='flex flex-col gap-4'>
-        <div className='text-3xl text-primaryAccent font-bold'>{data.name}</div>
+        <div className='text-4xl text-primaryAccent font-bold'>{data.name}</div>
         <div className='text-xl text-primaryAccent font-semibold'>{data.title}</div>
         <div className='text-base text-primaryTitle w-5/6'>{data.caption}</div>
          <div className='mt-4'>

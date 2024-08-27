@@ -15,8 +15,7 @@ export const data = [
             },
         ],
         description:[
-            "Clone Web Blog",
-            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque at id explicabo quae laborum temporibus minima qui",
+            "Practice cloning a blog website and learn how to use React hooks, including a responsive navbar function.",
         ],
         skill:[
             ["React", "JavaScript", "Tailwild"],
@@ -34,8 +33,7 @@ export const data = [
             },
         ],
         description:[
-            "Convert web design into code",
-            "HTML CSS Responsive",
+            "Practice creating a website landing page for a burger project using a Freepik template with Photoshop (PS) and Visual Studio Code (VS Code) in HTML, CSS, and responsive design.",
         ],
         skill:[
             ["HTML", "CSS"],
@@ -53,8 +51,7 @@ export const data = [
             },
         ],
         description:[
-            "Convert web design into code",
-            "HTML CSS",
+            "Practice building a website landing page using a Freepik template with HTML and CSS.",
         ],
         skill:[
             ["HTML", "CSS"],
